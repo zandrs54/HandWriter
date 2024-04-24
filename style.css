@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: Eskal;
+    src: url("fonts/Eskal_Font4You.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Lorenco;
+    src: url("fonts/Lorenco_Font4You.ttf") format("truetype");
+}
+@font-face {
+    font-family: Montekky;
+    src: url("fonts/Montekky_Font4You.ttf");
+}
+
+@font-face {
+    font-family: Abram;
+    src: url("fonts/Abram_Font4You.ttf") format("truetype");
+}
+@font-face {
+    font-family: Benvolio;
+    src: url("fonts/Benvolio_Font4You.ttf") format("truetype");
+}
+
+
+
+body{
+    background-color: #f5f5f5;
+    font-family: "Times New Roman", Times, serif;
+}
+h2{
+    color: #262626;
+    text-align: center;
+}
+#row {
+    margin-top: 10px;
+    display: flex;
+}
+
+#settings {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: #bdbdbd 1px solid;
+    background-color: #ffffff;
+}
+
+#settings_header{
+
+}
+
+#second_part{
+    color: rgba(54, 54, 54, 0.38);
+}
+
+#settings_content{
+    display: flex;
+}
+#header{
+    text-align: center;
+}
+
+textarea {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+    border: #bdbdbd 1px solid;
+    max-width: 250px;
+
+}
+select{
+    border: #bdbdbd 1px solid;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#inputs{
+    display: flex;
+}
+
+#first_inputs{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+#second_inputs{
+    margin-left: 60px;
+    margin-right: 10px;
+}
+
+#convert{
+ background-color: cornflowerblue;
+    border: #40609a 1px solid;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#filter{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#background{
+    max-width: 400px;
+}
+
+#preview{
+    background-image: url("backgrounds/main.jpg");
+    background-size: cover;
+    min-height: 500px;
+    max-height: 500px;
+    min-width: 500px;
+    max-width: 500px;
+}
+
+#word{
+    font-family: Abram;
+}
+
+#text_preview{
+    margin-top: 16px;
+    marginin-left: 10px;
+}
+
+#wordSpace{
+
+}
